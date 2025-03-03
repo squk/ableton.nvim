@@ -10,7 +10,7 @@ Why not simply fork it? I've thought about it carefully, but my idea with the th
 
 ## 🎨 Pallete
 
-![oldworld (1)](https://github.com/user-attachments/assets/0e0db774-92ac-4cda-93b4-9c3cd38a68c2)
+![ableton (1)](https://github.com/user-attachments/assets/0e0db774-92ac-4cda-93b4-9c3cd38a68c2)
 
 ## 📦 Installation
 
@@ -18,7 +18,7 @@ With [lazy.nvim](https://github.com/folke/lazy.nvim):
 
 ```lua
 {
-    "dgox16/oldworld.nvim",
+    "dgox16/ableton.nvim",
     lazy = false,
     priority = 1000,
 }
@@ -29,7 +29,7 @@ With [lazy.nvim](https://github.com/folke/lazy.nvim):
 Using lua:
 
 ```lua
-vim.cmd.colorscheme("oldworld")
+vim.cmd.colorscheme("ableton")
 ```
 
 ## ⚙️ Configuration
@@ -76,7 +76,7 @@ local default_config = {
 To configure a setting, you should pass that setting with the changed value following the structure of the default configuration.
 
 ```lua
-require("oldworld").setup({
+require("ableton").setup({
     styles = {
         booleans = { italic = true, bold = true },
     },
